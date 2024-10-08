@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>🐱 Andi's Cat Distribution Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+           
+            <div class="logo">
+              
+              <!--logo img-->
+              <img src="pics/cat-whiskers-logo.jpg">
+              <!--logo img-->
+
+                <h1>Andi's Cat Distribution Service</h1>
+            </div>
+            <button class="login-btn">Staff Login</button>
+        </div>
+        <hr>
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <!--Add pic for welcome section-->
+        <p>Welcome to the chaos! My name is Andi and I love cats. Fortunately, for me my town has tons of them just roaming around. I rescue many and try to rehome them. I'm branching out, so if you're interested in giving a kitty a home contact us for more info.</p>
+    </section>
+   
+
+    <!-- Cats Showcase Section -->
+    <section class="cats-showcase">
+        <h2>These cats are ready for a new home!</h2>
+        <div class="cats-grid">
+            <!-- Cat Card Template -->
+            <div class="cat-card">
+                <div class="cat-img"></div>
+                <h3>Mr. Whiskers</h3>
+                <p>Price: $50</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="request-btn">Request</button>
+            </div>
+            <!-- Repeat Cat Cards as needed -->
+            <div class="cat-card">
+                <div class="cat-img"></div>
+                <h3>Mr. Whiskers</h3>
+                <p>Price: $50</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="request-btn">Request</button>
+            </div>
+            <!-- Add more cards -->
+        </div>
+        <div class="pagination">
+            <span>&laquo; 1 of 4 &raquo;</span>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form id="catForm">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Tell us more about the perfect cat to add to your home!</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
